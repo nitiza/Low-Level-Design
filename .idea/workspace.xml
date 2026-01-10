@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fc096d6-1661-4a4b-937b-b914634e5289" name="Changes" comment="stared SOLID principle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/BadCode/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/BadCode/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/BadCode/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/GoodCode/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/GoodCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/GoodCode/NotificationChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/GoodCode/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/DIP/GoodCode/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/BadCode/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/BadCode/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/BadCode/MultiPurposeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/BadCode/SimplePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/GoodCode/Copier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/GoodCode/MultiPurposeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/GoodCode/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/GoodCode/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/ISP/GoodCode/SimplerPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/BadCode/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/BadCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/BadCode/ReadOnlyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/ReadOnlyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/Readable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/ReadableFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/Writable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/SOLIDPrinciples/LSP/GoodCode/WritableFile.java" afterDir="false" />
+    <list default="true" id="7fc096d6-1661-4a4b-937b-b914634e5289" name="Changes" comment="isp and dip">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPattern/Problem/AppSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPattern/Problem/WithoutSingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPattern/Solution/AppSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPattern/Solution/SingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPatternTUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +43,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.nitisha.Basics.OOPS.Client" />
-      <module name="Low Level Design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.nitisha.Basics.OOPS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.nitisha.CreationalPatterns.SingletonPattern.Solution" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SingletonPattern">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.nitisha.SOLIDPrinciples.OCP.GoodCode.Main" />
       <module name="Low Level Design" />
@@ -117,20 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="SingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nitisha.CreationalPatterns.SingletonPattern.Solution.SingletonPattern" />
       <module name="Low Level Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nitisha.CreationalPatterns.SingletonPattern.Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WithoutSingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nitisha.CreationalPatterns.SingletonPattern.Problem.WithoutSingletonPattern" />
+      <module name="Low Level Design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nitisha.CreationalPatterns.SingletonPattern.Problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPattern" />
+        <item itemvalue="Application.WithoutSingletonPattern" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767701983301</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="isp and dip">
+      <created>1767869353909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767869353909</updated>
+    </task>
+    <task id="LOCAL-00004" summary="isp and dip">
+      <created>1767869442520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767869442520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="stared SOLID principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="stared SOLID principle" />
+    <MESSAGE value="isp and dip" />
+    <option name="LAST_COMMIT_MESSAGE" value="isp and dip" />
   </component>
 </project>
