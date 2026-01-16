@@ -1,4 +1,4 @@
-package org.nitisha.CreationalPatterns;
+package org.nitisha.CreationalPatterns.SingletonPattern;
 
 // thread safe
 // eager loadinf
