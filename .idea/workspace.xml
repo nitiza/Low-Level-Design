@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fc096d6-1661-4a4b-937b-b914634e5289" name="Changes" comment="Started creational pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/FactoryPatternTUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Problem/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Problem/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Problem/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Problem/TransportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Solution/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Solution/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Solution/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Solution/TransportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/FactoryPattern/Solution/TransportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/AbstractFactoryPattern/Problem/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/BuilderPattern/BuilderPatternTuf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/BuilderPattern/Problem/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/BuilderPattern/Solution/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/BuilderPattern/Solution/WithBuilderPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/PrototypePattern/PrototypePatternTUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPatternTUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nitisha/CreationalPatterns/SingletonPattern/SingletonPatternTUF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nitisha/CreationalPatterns/JudgeAnalytics$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nitisha/CreationalPatterns/JudgeAnalytics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nitisha/CreationalPatterns/SingletonPatternTUF.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +50,13 @@
       <recent name="org.nitisha.CreationalPatterns.SingletonPattern.Solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransportService">
-    <configuration name="FactoryPatternTUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.nitisha.CreationalPatterns.FactoryPattern.FactoryPatternTUF" />
+  <component name="RunManager" selected="Application.BuilderPatternTuf">
+    <configuration name="BuilderPatternTuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nitisha.CreationalPatterns.BuilderPattern.BuilderPatternTuf" />
       <module name="Low Level Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.nitisha.CreationalPatterns.FactoryPattern.*" />
+          <option name="PATTERN" value="org.nitisha.CreationalPatterns.BuilderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.nitisha.SOLIDPrinciples.DIP.GoodCode.Main" />
+    <configuration name="FactoryPatternTUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nitisha.CreationalPatterns.FactoryPattern.FactoryPatternTUF" />
       <module name="Low Level Design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.nitisha.SOLIDPrinciples.DIP.GoodCode.*" />
+          <option name="PATTERN" value="org.nitisha.CreationalPatterns.FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderPatternTuf" />
         <item itemvalue="Application.TransportService" />
         <item itemvalue="Application.FactoryPatternTUF" />
         <item itemvalue="Application.SingletonPattern" />
         <item itemvalue="Application.WithoutSingletonPattern" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768058554311</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Started creational pattern">
+      <created>1768574015287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768574015287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
